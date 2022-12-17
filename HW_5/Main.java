@@ -5,15 +5,15 @@ import java.util.Map;
 public class Main {
     public static void main(String[] args) {
 
-        task1 task_1 = new task1();
-        Map<Integer, String> phoneBook = task_1.fillMap();
-        task_1.getPhoneNumber(phoneBook);
+        //task1 task_1 = new task1();
+        //Map<Integer, String> phoneBook = task_1.fillMap();
+        //task_1.getPhoneNumber(phoneBook);
 
 
-        // Task2 task_2 = new Task2();
-        // task_2.solution();
+        task2 task_2 = new task2();
+        task_2.solution();
 
-        //Task3 task_3 = new Task3();
+        //task3 task_3 = new task3();
         //task_3.solution();
 
     }
