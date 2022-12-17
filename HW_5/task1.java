@@ -25,7 +25,7 @@ public class task1 {
         Scanner in = new Scanner(System.in, "Cp866");
         String name = in.nextLine();
         in.close();
-
+        System.out.println("Телефонные номера: ");
         for(Map.Entry<Integer, String> phoneBookEntry  : phoneBook.entrySet()) {
             if(phoneBookEntry.getValue().equals(name)) {
                 System.out.println(phoneBookEntry.getKey());
