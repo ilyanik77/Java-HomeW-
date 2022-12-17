@@ -1,10 +1,14 @@
 package HW_5;
 
+import java.util.Map;
+
 public class Main {
     public static void main(String[] args) {
 
-        // Task1 task_1 = new Task1();
-        // task_1.searchFone();
+        task1 task_1 = new task1();
+        Map<Integer, String> phoneBook = task_1.fillMap();
+        task_1.getPhoneNumber(phoneBook);
+
 
         // Task2 task_2 = new Task2();
         // task_2.solution();
