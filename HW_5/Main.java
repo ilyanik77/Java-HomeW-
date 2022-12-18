@@ -10,11 +10,9 @@ public class Main {
         //task_1.getPhoneNumber(phoneBook);
 
 
-        task2 task_2 = new task2();
-        task_2.solution();
+        //task2 task_2 = new task2();
+        //task_2.solution();
 
-        //task3 task_3 = new task3();
-        //task_3.solution();
 
     }
 
